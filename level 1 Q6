@@ -1,0 +1,7 @@
+# Program to remove duplicates from an array
+
+array = [1, 2, 3, 4, 1]
+
+unique_array = list(set(array))
+
+print("duplicate array =", unique_array)
