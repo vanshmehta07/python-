@@ -1,0 +1,17 @@
+# Program to find Mth maximum and Nth minimum numbers in an array
+# and compute their sum and difference
+
+arr = [14, 16, 87, 36, 25, 89, 34]
+M = 1
+N = 3
+sorted_arr = sorted(arr)
+Mth_max = sorted_arr[-M]
+Nth_min = sorted_arr[N - 1]
+
+sum_val = Mth_max + Nth_min
+diff_val = Mth_max - Nth_min
+
+print(f"{M}st Maximum Number = {Mth_max}")
+print(f"{N}rd Minimum Number = {Nth_min}")
+print("Sum =", sum_val)
+print("Difference =", diff_val)
