@@ -1,0 +1,10 @@
+import math
+a = 15
+b = 20
+
+lcm = abs(a * b) // math.gcd(a, b)
+print(f"LCM of {a} and {b} is {lcm}")
+
+x = 60
+y = 48
+print(f"The GCD of {x} and {y} is: {math.gcd(x, y)}")
