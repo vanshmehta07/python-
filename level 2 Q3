@@ -1,0 +1,13 @@
+# Program to check if a number is a perfect number
+
+num = 6  # Sample input
+sum_divisors = 0
+
+for i in range(1, num):
+    if num % i == 0:
+        sum_divisors += i
+
+if sum_divisors == num:
+    print("It is a perfect number")
+else:
+    print("It is not a perfect number")
